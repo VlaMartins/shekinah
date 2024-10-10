@@ -34,9 +34,9 @@ p {
 }
 
 .categoria-videos {
-    display: flex;
-    overflow-x: auto;
-    gap: 10px;
+    display: flex; /*pra ficar tudo na mesma linha de forma flexivel + ela ultrapassa a pagina*/
+    overflow-x: auto; /*pra que se ajuste e nao ultrapasse no eixo x*/
+    gap: 10px; /*cria um vão entre os videos */
 }
 
 .categoria {
